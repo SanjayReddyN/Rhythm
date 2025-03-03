@@ -1,0 +1,4130 @@
+fileFormatVersion: 2
+guid: 797042293473f6843a15aa58775ecba4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2223271394776542538
+    second: colored_tilemap 1_0
+  - first:
+      213: -669305131580860082
+    second: colored_tilemap 1_1
+  - first:
+      213: -1692138050013588860
+    second: colored_tilemap 1_2
+  - first:
+      213: 4384030139153358399
+    second: colored_tilemap 1_3
+  - first:
+      213: 7134188952144710816
+    second: colored_tilemap 1_4
+  - first:
+      213: 2386854984361920781
+    second: colored_tilemap 1_5
+  - first:
+      213: 1125538298275420306
+    second: colored_tilemap 1_6
+  - first:
+      213: -3818117369040227166
+    second: colored_tilemap 1_7
+  - first:
+      213: -5010542203515644837
+    second: colored_tilemap 1_8
+  - first:
+      213: -5254538350073805060
+    second: colored_tilemap 1_9
+  - first:
+      213: 6713980368937531575
+    second: colored_tilemap 1_10
+  - first:
+      213: -1181437309612837792
+    second: colored_tilemap 1_11
+  - first:
+      213: 6434940890818621765
+    second: colored_tilemap 1_12
+  - first:
+      213: 3820282784804289354
+    second: colored_tilemap 1_13
+  - first:
+      213: 5854075242998191339
+    second: colored_tilemap 1_14
+  - first:
+      213: 8132867508525608493
+    second: colored_tilemap 1_15
+  - first:
+      213: 2712990896774810210
+    second: colored_tilemap 1_16
+  - first:
+      213: -6491668094155272182
+    second: colored_tilemap 1_17
+  - first:
+      213: -5385979419474079239
+    second: colored_tilemap 1_18
+  - first:
+      213: -3649560275139731387
+    second: colored_tilemap 1_19
+  - first:
+      213: 8762488825907494052
+    second: colored_tilemap 1_20
+  - first:
+      213: -2244830435150350834
+    second: colored_tilemap 1_21
+  - first:
+      213: 2659312286394636452
+    second: colored_tilemap 1_22
+  - first:
+      213: 4254355326267674029
+    second: colored_tilemap 1_23
+  - first:
+      213: -3799286923341592299
+    second: colored_tilemap 1_24
+  - first:
+      213: -3162141580040204281
+    second: colored_tilemap 1_25
+  - first:
+      213: 1027833598814143263
+    second: colored_tilemap 1_26
+  - first:
+      213: -4979274272779415218
+    second: colored_tilemap 1_27
+  - first:
+      213: -8194400705027784097
+    second: colored_tilemap 1_28
+  - first:
+      213: -8374936987729046154
+    second: colored_tilemap 1_29
+  - first:
+      213: -4523377447028827929
+    second: colored_tilemap 1_30
+  - first:
+      213: 1046412523586715641
+    second: colored_tilemap 1_31
+  - first:
+      213: 898947970794264215
+    second: colored_tilemap 1_32
+  - first:
+      213: -1566203845216859677
+    second: colored_tilemap 1_33
+  - first:
+      213: -4125713062023131648
+    second: colored_tilemap 1_34
+  - first:
+      213: -4931647560417416776
+    second: colored_tilemap 1_35
+  - first:
+      213: 1721393800814100829
+    second: colored_tilemap 1_36
+  - first:
+      213: -106897786554091540
+    second: colored_tilemap 1_37
+  - first:
+      213: 2369140020697872590
+    second: colored_tilemap 1_38
+  - first:
+      213: -2102560219628021510
+    second: colored_tilemap 1_39
+  - first:
+      213: -6121598058589982593
+    second: colored_tilemap 1_40
+  - first:
+      213: -732975008858417316
+    second: colored_tilemap 1_41
+  - first:
+      213: -8671559441658409390
+    second: colored_tilemap 1_42
+  - first:
+      213: -5648047882663120400
+    second: colored_tilemap 1_43
+  - first:
+      213: 5340348592576060847
+    second: colored_tilemap 1_44
+  - first:
+      213: -5807333465259710940
+    second: colored_tilemap 1_45
+  - first:
+      213: 8788118053197905309
+    second: colored_tilemap 1_46
+  - first:
+      213: 6769255385570323557
+    second: colored_tilemap 1_47
+  - first:
+      213: -9156256382897189948
+    second: colored_tilemap 1_48
+  - first:
+      213: -5842889512020670076
+    second: colored_tilemap 1_49
+  - first:
+      213: 307435433409247229
+    second: colored_tilemap 1_50
+  - first:
+      213: -4615763862559301367
+    second: colored_tilemap 1_51
+  - first:
+      213: 5092833177496712107
+    second: colored_tilemap 1_52
+  - first:
+      213: -3923827225722778441
+    second: colored_tilemap 1_53
+  - first:
+      213: 7759752453398871470
+    second: colored_tilemap 1_54
+  - first:
+      213: -4652295377357990626
+    second: colored_tilemap 1_55
+  - first:
+      213: -7199117748212332809
+    second: colored_tilemap 1_56
+  - first:
+      213: -3253941810264569504
+    second: colored_tilemap 1_57
+  - first:
+      213: -2687623819607682433
+    second: colored_tilemap 1_58
+  - first:
+      213: -1713103007936515598
+    second: colored_tilemap 1_59
+  - first:
+      213: 3210364803090550755
+    second: colored_tilemap 1_60
+  - first:
+      213: 8558480912687198773
+    second: colored_tilemap 1_61
+  - first:
+      213: 159047836063649280
+    second: colored_tilemap 1_62
+  - first:
+      213: -6841162305960873309
+    second: colored_tilemap 1_63
+  - first:
+      213: -869980666097784761
+    second: colored_tilemap 1_64
+  - first:
+      213: -1811446747259283080
+    second: colored_tilemap 1_65
+  - first:
+      213: 2987304741936001688
+    second: colored_tilemap 1_66
+  - first:
+      213: 8833273458748341959
+    second: colored_tilemap 1_67
+  - first:
+      213: -3890125730516124140
+    second: colored_tilemap 1_68
+  - first:
+      213: -6849526282411413144
+    second: colored_tilemap 1_69
+  - first:
+      213: 7588062233627539588
+    second: colored_tilemap 1_70
+  - first:
+      213: -1857952948162110882
+    second: colored_tilemap 1_71
+  - first:
+      213: 2159384825856603296
+    second: colored_tilemap 1_72
+  - first:
+      213: -8454726795579717966
+    second: colored_tilemap 1_73
+  - first:
+      213: -3173246582338050252
+    second: colored_tilemap 1_74
+  - first:
+      213: 5350077850283180352
+    second: colored_tilemap 1_75
+  - first:
+      213: 3338901099024538194
+    second: colored_tilemap 1_76
+  - first:
+      213: -4773373852145029674
+    second: colored_tilemap 1_77
+  - first:
+      213: -2463433865701343357
+    second: colored_tilemap 1_78
+  - first:
+      213: 3632880472529286389
+    second: colored_tilemap 1_79
+  - first:
+      213: 2136165940431946726
+    second: colored_tilemap 1_80
+  - first:
+      213: 517033177930177306
+    second: colored_tilemap 1_81
+  - first:
+      213: -6824523231816513551
+    second: colored_tilemap 1_82
+  - first:
+      213: -5414293611883683334
+    second: colored_tilemap 1_83
+  - first:
+      213: 887749123927880686
+    second: colored_tilemap 1_84
+  - first:
+      213: 5086729768750060120
+    second: colored_tilemap 1_85
+  - first:
+      213: -1594988125198452139
+    second: colored_tilemap 1_86
+  - first:
+      213: 1086256883768350753
+    second: colored_tilemap 1_87
+  - first:
+      213: -2779588836365116372
+    second: colored_tilemap 1_88
+  - first:
+      213: 7603034225412642710
+    second: colored_tilemap 1_89
+  - first:
+      213: 4233138797460769781
+    second: colored_tilemap 1_90
+  - first:
+      213: 1912622497250724005
+    second: colored_tilemap 1_91
+  - first:
+      213: 5276513688563772317
+    second: colored_tilemap 1_92
+  - first:
+      213: 1783371834124928705
+    second: colored_tilemap 1_93
+  - first:
+      213: -5497071263528283107
+    second: colored_tilemap 1_94
+  - first:
+      213: 8087440783174378040
+    second: colored_tilemap 1_95
+  - first:
+      213: 3051200722019007250
+    second: colored_tilemap 1_96
+  - first:
+      213: 3997615871127971864
+    second: colored_tilemap 1_97
+  - first:
+      213: -6955978501161836811
+    second: colored_tilemap 1_98
+  - first:
+      213: -8809378630607363545
+    second: colored_tilemap 1_99
+  - first:
+      213: 1245126547255163567
+    second: colored_tilemap 1_100
+  - first:
+      213: 6707818682893847023
+    second: colored_tilemap 1_101
+  - first:
+      213: 5321655092104407197
+    second: colored_tilemap 1_102
+  - first:
+      213: -7619539909244286820
+    second: colored_tilemap 1_103
+  - first:
+      213: -6629817385608191086
+    second: colored_tilemap 1_104
+  - first:
+      213: 6322565969227103034
+    second: colored_tilemap 1_105
+  - first:
+      213: 6675682509935640866
+    second: colored_tilemap 1_106
+  - first:
+      213: 3881876644931228492
+    second: colored_tilemap 1_107
+  - first:
+      213: -3284747485664308039
+    second: colored_tilemap 1_108
+  - first:
+      213: -5219505985897280249
+    second: colored_tilemap 1_109
+  - first:
+      213: -6282973473139340813
+    second: colored_tilemap 1_110
+  - first:
+      213: 2125801390096203033
+    second: colored_tilemap 1_111
+  - first:
+      213: -6045998122332608282
+    second: colored_tilemap 1_112
+  - first:
+      213: -7751319187944592823
+    second: colored_tilemap 1_113
+  - first:
+      213: -3676295768067375886
+    second: colored_tilemap 1_114
+  - first:
+      213: 4686801719357187326
+    second: colored_tilemap 1_115
+  - first:
+      213: -5012137888562545507
+    second: colored_tilemap 1_116
+  - first:
+      213: -5393137248235007416
+    second: colored_tilemap 1_117
+  - first:
+      213: 5644097792180856473
+    second: colored_tilemap 1_118
+  - first:
+      213: -6044775829342111704
+    second: colored_tilemap 1_119
+  - first:
+      213: 3383250469627818507
+    second: colored_tilemap 1_120
+  - first:
+      213: -5311858090848761870
+    second: colored_tilemap 1_121
+  - first:
+      213: -3595798411642447254
+    second: colored_tilemap 1_122
+  - first:
+      213: -64549834516382058
+    second: colored_tilemap 1_123
+  - first:
+      213: 624209069759247701
+    second: colored_tilemap 1_124
+  - first:
+      213: -5941814516732038921
+    second: colored_tilemap 1_125
+  - first:
+      213: -4642832949662790318
+    second: colored_tilemap 1_126
+  - first:
+      213: 5352999814812586792
+    second: colored_tilemap 1_127
+  - first:
+      213: 8467472167106351301
+    second: colored_tilemap 1_128
+  - first:
+      213: -7968734295297563079
+    second: colored_tilemap 1_129
+  - first:
+      213: -8146484323932643860
+    second: colored_tilemap 1_130
+  - first:
+      213: -4334313442299129290
+    second: colored_tilemap 1_131
+  - first:
+      213: 8647304360777990250
+    second: colored_tilemap 1_132
+  - first:
+      213: 2033493929760518910
+    second: colored_tilemap 1_133
+  - first:
+      213: 6616986610776974240
+    second: colored_tilemap 1_134
+  - first:
+      213: 5426747023507490800
+    second: colored_tilemap 1_135
+  - first:
+      213: -7088440246258574902
+    second: colored_tilemap 1_136
+  - first:
+      213: 6216330461611364568
+    second: colored_tilemap 1_137
+  - first:
+      213: -4856622115023232118
+    second: colored_tilemap 1_138
+  - first:
+      213: -5021967445148516636
+    second: colored_tilemap 1_139
+  - first:
+      213: -884733969336835277
+    second: colored_tilemap 1_140
+  - first:
+      213: 8836292342162352884
+    second: colored_tilemap 1_141
+  - first:
+      213: -3917585578530274635
+    second: colored_tilemap 1_142
+  - first:
+      213: -3052332603649946522
+    second: colored_tilemap 1_143
+  - first:
+      213: -8544537418709277478
+    second: colored_tilemap 1_144
+  - first:
+      213: -5620707097626532044
+    second: colored_tilemap 1_145
+  - first:
+      213: 9169554853118300684
+    second: colored_tilemap 1_146
+  - first:
+      213: -7927137533867838317
+    second: colored_tilemap 1_147
+  - first:
+      213: -6675288044916068480
+    second: colored_tilemap 1_148
+  - first:
+      213: -5046729218548107588
+    second: colored_tilemap 1_149
+  - first:
+      213: -3951862014374091021
+    second: colored_tilemap 1_150
+  - first:
+      213: 8297101596827734591
+    second: colored_tilemap 1_151
+  - first:
+      213: 7997624701483675730
+    second: colored_tilemap 1_152
+  - first:
+      213: 6684912954408878990
+    second: colored_tilemap 1_153
+  - first:
+      213: 6386838388603226252
+    second: colored_tilemap 1_154
+  - first:
+      213: 1955717637074324217
+    second: colored_tilemap 1_155
+  - first:
+      213: -3104138989563235439
+    second: colored_tilemap 1_156
+  - first:
+      213: 6718751184320117304
+    second: colored_tilemap 1_157
+  - first:
+      213: -3899107630058937391
+    second: colored_tilemap 1_158
+  - first:
+      213: -7703787891530312756
+    second: colored_tilemap 1_159
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: colored_tilemap 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b29e03227a5521e0800000000000000
+      internalID: -2223271394776542538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 71
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49d6c9678626b6f0800000000000000
+      internalID: -669305131580860082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_2
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 80
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 482940aa8615488e0800000000000000
+      internalID: -1692138050013588860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_3
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 71
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e97d81f2437dc30800000000000000
+      internalID: 4384030139153358399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_4
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 80
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac0a1dad0bb10360800000000000000
+      internalID: 7134188952144710816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_5
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 71
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09434156ffcf1120800000000000000
+      internalID: 2386854984361920781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_6
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 80
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 298ddc17e17be9f00800000000000000
+      internalID: 1125538298275420306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_7
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 71
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a4bb9b6b72530bc0800000000000000
+      internalID: -3818117369040227166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_8
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 80
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b54d853b96af67ab0800000000000000
+      internalID: -5010542203515644837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_9
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 71
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf60f29d5312417b0800000000000000
+      internalID: -5254538350073805060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_10
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 80
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8b777c299dc2d50800000000000000
+      internalID: 6713980368937531575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_11
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 71
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0643224c601ba9fe0800000000000000
+      internalID: -1181437309612837792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 80
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54131eb75a08d4950800000000000000
+      internalID: 6434940890818621765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_13
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 71
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4bbcc9b3fe540530800000000000000
+      internalID: 3820282784804289354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_14
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 80
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4d053da6add3150800000000000000
+      internalID: 5854075242998191339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_15
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 71
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e2cf2c8efbdd070800000000000000
+      internalID: 8132867508525608493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_16
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 80
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a8129b8da76a520800000000000000
+      internalID: 2712990896774810210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_17
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 71
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0053204346f8e5a0800000000000000
+      internalID: -6491668094155272182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1deae01482145b0800000000000000
+      internalID: -5385979419474079239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_19
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 71
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5406be514482a5dc0800000000000000
+      internalID: -3649560275139731387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_20
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 80
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4acbb88592d9a9970800000000000000
+      internalID: 8762488825907494052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_21
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 71
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06b0e3ec92c8d0e0800000000000000
+      internalID: -2244830435150350834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_22
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 80
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a852615f66c7e420800000000000000
+      internalID: 2659312286394636452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_23
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 71
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dadc972f0a18a0b30800000000000000
+      internalID: 4254355326267674029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_24
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 80
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51900763ca8364bc0800000000000000
+      internalID: -3799286923341592299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_25
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 71
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70016389cf0dd14d0800000000000000
+      internalID: -3162141580040204281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_26
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 80
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1347816639934e00800000000000000
+      internalID: 1027833598814143263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_27
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 71
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41ddb32e6016eab0800000000000000
+      internalID: -4979274272779415218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_28
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 80
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52cb9d79f3a74e80800000000000000
+      internalID: -8194400705027784097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_29
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 71
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67551269e2f36cb80800000000000000
+      internalID: -8374936987729046154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_30
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 80
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e855d48d2cb931c0800000000000000
+      internalID: -4523377447028827929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_31
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 71
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fff7e465aa958e00800000000000000
+      internalID: 1046412523586715641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 62
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79610c6aa64b97c00800000000000000
+      internalID: 898947970794264215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 53
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e98fff96e9b34ae0800000000000000
+      internalID: -1566203845216859677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_34
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 62
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e0cec34d58eb6c0800000000000000
+      internalID: -4125713062023131648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_35
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 53
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b9e5eb3ca44f8bb0800000000000000
+      internalID: -4931647560417416776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_36
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 62
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d518510aa8e93e710800000000000000
+      internalID: 1721393800814100829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_37
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 53
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce7fa2d8709348ef0800000000000000
+      internalID: -106897786554091540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_38
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 62
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8bbdceb40e0e020800000000000000
+      internalID: 2369140020697872590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_39
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 53
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8543ebe9432d2e0800000000000000
+      internalID: -2102560219628021510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_40
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 62
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f70f504dff6bb0ba0800000000000000
+      internalID: -6121598058589982593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_41
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 53
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5751c7ec13f3d5f0800000000000000
+      internalID: -732975008858417316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_42
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 62
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e0447b1ae68a780800000000000000
+      internalID: -8671559441658409390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_43
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 53
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1b777106a1e91b0800000000000000
+      internalID: -5648047882663120400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_44
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 62
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fadd04520cabc1a40800000000000000
+      internalID: 5340348592576060847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_45
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 53
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 426e4fe5bf4386fa0800000000000000
+      internalID: -5807333465259710940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_46
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 62
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9dfe05decaa5f970800000000000000
+      internalID: 8788118053197905309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_47
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 53
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ca1da78e931fd50800000000000000
+      internalID: 6769255385570323557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_48
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 62
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb8209e4517ee080800000000000000
+      internalID: -9156256382897189948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_49
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 53
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489072e12f2e9eea0800000000000000
+      internalID: -5842889512020670076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_50
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 62
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7f9b7d5ea344400800000000000000
+      internalID: 307435433409247229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_51
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 53
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901611de83381ffb0800000000000000
+      internalID: -4615763862559301367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_52
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 62
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3f30dbac06da640800000000000000
+      internalID: 5092833177496712107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_53
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 53
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc89c27de3cb89c0800000000000000
+      internalID: -3923827225722778441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_54
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 62
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead3ec15ebd20bb60800000000000000
+      internalID: 7759752453398871470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_55
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 53
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e159262d00abf6fb0800000000000000
+      internalID: -4652295377357990626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_56
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 62
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f60891fc88971c90800000000000000
+      internalID: -7199117748212332809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_57
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 53
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0698367e92da7d2d0800000000000000
+      internalID: -3253941810264569504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_58
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 62
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72d76e2064a3bad0800000000000000
+      internalID: -2687623819607682433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_59
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 53
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f17a4404e5d938e0800000000000000
+      internalID: -1713103007936515598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_60
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 62
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef01a777c18d8c20800000000000000
+      internalID: 3210364803090550755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_61
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 53
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5327ea99b05d5c670800000000000000
+      internalID: 8558480912687198773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_62
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 62
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e4eda0a2d053200800000000000000
+      internalID: 159047836063649280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_63
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 53
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2f866f02f4f01a0800000000000000
+      internalID: -6841162305960873309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 748a8cb81353de3f0800000000000000
+      internalID: -869980666097784761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 35
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879d214e7c27cd6e0800000000000000
+      internalID: -1811446747259283080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_66
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 44
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8927fead5d9057920800000000000000
+      internalID: 2987304741936001688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_67
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 35
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ceb498f867169a70800000000000000
+      internalID: 8833273458748341959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_68
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 44
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ebaf4424f730ac0800000000000000
+      internalID: -3890125730516124140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_69
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 35
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8617a21f22891f0a0800000000000000
+      internalID: -6849526282411413144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_70
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 44
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4883de0f5663e4960800000000000000
+      internalID: 7588062233627539588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_71
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 35
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a586333a93736e0800000000000000
+      internalID: -1857952948162110882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_72
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 44
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a43d86ee0da7fd10800000000000000
+      internalID: 2159384825856603296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_73
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 35
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b68e7446c6caaa80800000000000000
+      internalID: -8454726795579717966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_74
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 44
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437a403cb0d56f3d0800000000000000
+      internalID: -3173246582338050252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_75
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 35
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04180da757b4f3a40800000000000000
+      internalID: 5350077850283180352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_76
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 44
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ad48bfbd8265e20800000000000000
+      internalID: 3338901099024538194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_77
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 35
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dde1ca95c191cdb0800000000000000
+      internalID: -4773373852145029674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_78
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 44
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f343373ff10ddd0800000000000000
+      internalID: -2463433865701343357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_79
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 35
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4bf8cba859a6230800000000000000
+      internalID: 3632880472529286389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_80
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 44
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e30cbcda9f25ad10800000000000000
+      internalID: 2136165940431946726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_81
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 35
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b9e9b9feedc2700800000000000000
+      internalID: 517033177930177306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_82
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 44
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f70d2e474c6a41a0800000000000000
+      internalID: -6824523231816513551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_83
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 35
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af1a10a65a09cd4b0800000000000000
+      internalID: -5414293611883683334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_84
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 44
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3b26def1be15c00800000000000000
+      internalID: 887749123927880686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_85
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 35
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85290c626c1b79640800000000000000
+      internalID: 5086729768750060120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_86
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 44
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a749030c67dd9e0800000000000000
+      internalID: -1594988125198452139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_87
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 35
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128d5db61e8231f00800000000000000
+      internalID: 1086256883768350753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_88
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 44
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2cd0d22eaaec69d0800000000000000
+      internalID: -2779588836365116372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_89
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 35
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6979bdc6857638960800000000000000
+      internalID: 7603034225412642710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_90
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 44
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fbc293ee412fba30800000000000000
+      internalID: 4233138797460769781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_91
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 35
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8cc0a17000b8a10800000000000000
+      internalID: 1912622497250724005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_92
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 44
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b645b5e31f93940800000000000000
+      internalID: 5276513688563772317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_93
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 35
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c604730c3fcfb810800000000000000
+      internalID: 1783371834124928705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_94
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 44
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1493608fca76b3b0800000000000000
+      internalID: -5497071263528283107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_95
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 35
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 832ad1f0b8c5c3070800000000000000
+      internalID: 8087440783174378040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 26
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21bbb5604ea085a20800000000000000
+      internalID: 3051200722019007250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818eb0b54726a7730800000000000000
+      internalID: 3997615871127971864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_98
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 26
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe9ef45866677f90800000000000000
+      internalID: -6955978501161836811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_99
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7222bbe3fccceb580800000000000000
+      internalID: -8809378630607363545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_100
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 26
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa7d8d6ff3974110800000000000000
+      internalID: 1245126547255163567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_101
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9cd937d85f61d50800000000000000
+      internalID: 6707818682893847023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_102
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 26
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9828066c115ad940800000000000000
+      internalID: 5321655092104407197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_103
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98059592d4f14690800000000000000
+      internalID: -7619539909244286820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_104
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 26
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2936d1dc6382ef3a0800000000000000
+      internalID: -6629817385608191086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_105
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b31c820444eb750800000000000000
+      internalID: 6322565969227103034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_106
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 26
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 221800e9fd9c4ac50800000000000000
+      internalID: 6675682509935640866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_107
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c43d203dd323fd530800000000000000
+      internalID: 3881876644931228492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_108
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 26
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b41f1ca09b3a62d0800000000000000
+      internalID: -3284747485664308039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_109
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d419fb5f69097b0800000000000000
+      internalID: -5219505985897280249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_110
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 26
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9c3503ae46ec8a0800000000000000
+      internalID: -6282973473139340813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_111
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d37bfe91d508d10800000000000000
+      internalID: 2125801390096203033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_112
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 26
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e8afa5adbc481ca0800000000000000
+      internalID: -6045998122332608282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_113
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94aa4ed4448cd6490800000000000000
+      internalID: -7751319187944592823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_114
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 26
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc721f0a7c2bfcc0800000000000000
+      internalID: -3676295768067375886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_115
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4a9fef45dda0140800000000000000
+      internalID: 4686801719357187326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_116
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 26
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9cf3f2552f417ab0800000000000000
+      internalID: -5012137888562545507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_117
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 842560e2f3ab725b0800000000000000
+      internalID: -5393137248235007416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_118
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 26
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996a18cc90dd35e40800000000000000
+      internalID: 5644097792180856473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_119
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8283239e864ac1ca0800000000000000
+      internalID: -6044775829342111704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_120
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 26
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02f65c7068b3fe20800000000000000
+      internalID: 3383250469627818507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_121
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7cca5b53d7846b0800000000000000
+      internalID: -5311858090848761870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_122
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 26
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a532e5568291ec0800000000000000
+      internalID: -3595798411642447254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_123
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e375b744caa1ff0800000000000000
+      internalID: -64549834516382058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_124
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 26
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555b39c77d2a9a800800000000000000
+      internalID: 624209069759247701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_125
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f07de89d2f6a8da0800000000000000
+      internalID: -5941814516732038921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_126
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 26
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25dced3f708519fb0800000000000000
+      internalID: -4642832949662790318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_127
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 17
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823d2ac58fca94a40800000000000000
+      internalID: 5352999814812586792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c091e9c211828570800000000000000
+      internalID: 8467472167106351301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_129
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936e05be06e596190800000000000000
+      internalID: -7968734295297563079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_130
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 8
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cedd4b75bafd1fe80800000000000000
+      internalID: -8146484323932643860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_131
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6325f8e63ec69d3c0800000000000000
+      internalID: -4334313442299129290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_132
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 8
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60cbd03085610870800000000000000
+      internalID: 8647304360777990250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_133
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2f94884fb683c10800000000000000
+      internalID: 2033493929760518910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_134
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 8
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3a0e2a34244db50800000000000000
+      internalID: 6616986610776974240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_135
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 0
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7821e6aadaf4b40800000000000000
+      internalID: 5426747023507490800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_136
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 8
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9dc26f62dc0ad90800000000000000
+      internalID: -7088440246258574902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_137
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d019ca8e97d44650800000000000000
+      internalID: 6216330461611364568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_138
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 8
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83ebb9faefc99cb0800000000000000
+      internalID: -4856622115023232118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_139
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 0
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eeb85657336e4ab0800000000000000
+      internalID: -5021967445148516636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_140
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 8
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333e4f4742bc8b3f0800000000000000
+      internalID: -884733969336835277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_141
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 0
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa671a8111d0aa70800000000000000
+      internalID: 8836292342162352884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_142
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 8
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2828e2ca0f1a9c0800000000000000
+      internalID: -3917585578530274635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_143
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 0
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c0a1f3bafe3a5d0800000000000000
+      internalID: -3052332603649946522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_144
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 8
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad4ecc31d74bb6980800000000000000
+      internalID: -8544537418709277478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_145
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 0
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437247bacac3ff1b0800000000000000
+      internalID: -5620707097626532044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_146
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 8
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0253987e8dc04f70800000000000000
+      internalID: 9169554853118300684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_147
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3943428a9662df190800000000000000
+      internalID: -7927137533867838317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_148
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 8
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08fad5de3ec9c53a0800000000000000
+      internalID: -6675288044916068480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_149
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 0
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6fad2b38a66f9b0800000000000000
+      internalID: -5046729218548107588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_150
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 8
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f66fdf8f6a2829c0800000000000000
+      internalID: -3951862014374091021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_151
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f325e3041f9352370800000000000000
+      internalID: 8297101596827734591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_152
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 8
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250f2d2fa454dfe60800000000000000
+      internalID: 7997624701483675730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_153
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 0
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83c2f1f9e495cc50800000000000000
+      internalID: 6684912954408878990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_154
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 8
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c88068eecab92a850800000000000000
+      internalID: 6386838388603226252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_155
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 0
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa08ce34da142b10800000000000000
+      internalID: 1955717637074324217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_156
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 8
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 193b4a11902ebe4d0800000000000000
+      internalID: -3104138989563235439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_157
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 0
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ab2abca9ccd3d50800000000000000
+      internalID: 6718751184320117304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_158
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 8
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d36251d44693e9c0800000000000000
+      internalID: -3899107630058937391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colored_tilemap 1_159
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc35164aab5a61590800000000000000
+      internalID: -7703787891530312756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
