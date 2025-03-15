@@ -16,6 +16,8 @@ public class PlayerController : MonoBehaviour
     private float lastBeatTime;
     private bool canMove;
     private Vector3Int lastPosition;
+    private bool hasMovedThisBeat = false;
+    private bool hasInteractedThisBeat = false;
 
     private void Start()
     {
@@ -53,6 +55,8 @@ public class PlayerController : MonoBehaviour
     private void HandleBeat()
     {
         lastBeatTime = Time.time;
+        hasMovedThisBeat = false;
+        hasInteractedThisBeat = false;
         canMove = true;
     }
 
@@ -67,10 +71,14 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
-        Vector2 input = playerInput.GetMovementInput();
-        if (input.magnitude > 0)
+        // Only handle movement - interaction happens during movement
+        if (!hasMovedThisBeat)
         {
-            TryMove(input);
+            Vector2 input = playerInput.GetMovementInput();
+            if (input.magnitude > 0)
+            {
+                TryMove(input);
+            }
         }
     }
 
@@ -87,21 +95,27 @@ public class PlayerController : MonoBehaviour
 
         Vector3Int targetCell = lastPosition + direction;
 
+        // Check for instrument at target position
+        if (TryInteractWithInstrumentAt(targetCell))
+        {
+            hasMovedThisBeat = true;
+            canMove = false;
+            return;
+        }
+
+        // If no instrument, try to move
         if (IsValidMove(targetCell))
         {
             Vector3 targetPosition = groundTilemap.GetCellCenterWorld(targetCell);
             rb.MovePosition(targetPosition);
             lastPosition = targetCell;
-            canMove = false; // Prevent multiple moves per beat
+            hasMovedThisBeat = true;
+            canMove = false;
         }
     }
 
-    private bool IsValidMove(Vector3Int targetCell)
+    private bool TryInteractWithInstrumentAt(Vector3Int targetCell)
     {
-        if (!groundTilemap.HasTile(targetCell) || wallTilemap.HasTile(targetCell))
-            return false;
-
-        // Check for interactables
         Vector3 targetPosition = groundTilemap.GetCellCenterWorld(targetCell);
         Collider2D[] colliders = Physics2D.OverlapPointAll(targetPosition);
 
@@ -110,11 +124,15 @@ public class PlayerController : MonoBehaviour
             if (collider.TryGetComponent<InstrumentController>(out var instrument))
             {
                 instrument.Activate();
-                return false; // Don't move into instrument spaces
+                return true;
             }
         }
+        return false;
+    }
 
-        return true;
+    private bool IsValidMove(Vector3Int targetCell)
+    {
+        return groundTilemap.HasTile(targetCell) && !wallTilemap.HasTile(targetCell);
     }
 
     private void OnDestroy()

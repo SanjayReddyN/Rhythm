@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using System.Collections;
 
 public class InstrumentController : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class InstrumentController : MonoBehaviour
     [SerializeField] private LayerMask enemyLayer;
     [SerializeField] private float attackRange = 5f;
     [SerializeField] private Tilemap groundTilemap;
+    [SerializeField] private float attackDelay = 0.1f; // Small delay for visual feedback
 
     public enum InstrumentType
     {
@@ -61,22 +63,26 @@ public class InstrumentController : MonoBehaviour
 
     public void Activate()
     {
-        Debug.Log($"Instrument {gameObject.name} activated at position {transform.position}");
-        Debug.Log($"Attack direction: {attackDirection}, Range: {attackRange}");
+        StartCoroutine(ActivateRoutine());
+    }
 
-        // Play effect and sound
+    private IEnumerator ActivateRoutine()
+    {
+        // Visual feedback first
         if (activationEffect != null)
         {
             activationEffect.Play();
-            Debug.Log("Playing activation effect");
         }
+
         if (instrumentSound != null)
         {
             instrumentSound.Play();
-            Debug.Log("Playing instrument sound");
         }
 
-        // Check for enemies in line
+        // Small delay before damage
+        yield return new WaitForSeconds(attackDelay);
+
+        // Check for enemies
         RaycastHit2D[] hits = Physics2D.RaycastAll(
             transform.position,
             attackDirection,
@@ -84,25 +90,16 @@ public class InstrumentController : MonoBehaviour
             enemyLayer
         );
 
-        Debug.Log($"RaycastAll found {hits.Length} hits on enemy layer {enemyLayer.value}");
-
         foreach (var hit in hits)
         {
-            Debug.Log($"Hit object: {hit.collider.gameObject.name} at distance {hit.distance}");
             if (hit.collider.TryGetComponent<Enemy>(out Enemy enemy))
             {
-                Debug.Log($"Enemy found and taking damage");
                 enemy.TakeDamage();
             }
         }
 
-        // Debug visualization - make ray more visible
-        Debug.DrawRay(transform.position, attackDirection * attackRange, Color.red, 1f, false);
-        // Add a second ray in different color for better visibility
-        Debug.DrawRay(transform.position, attackDirection * attackRange, Color.yellow, 0.5f, false);
-
-        // Draw attack range circle
-        DebugDrawCircle(transform.position, 0.5f, Color.blue, 1f);
+        // Debug visuals
+        Debug.DrawRay(transform.position, attackDirection * attackRange, Color.red, 0.5f);
     }
 
     // Helper method to draw debug circle

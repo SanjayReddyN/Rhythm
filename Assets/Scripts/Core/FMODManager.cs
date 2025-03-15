@@ -25,6 +25,10 @@ public class FMODManager : MonoBehaviour
     public event Action OnBeat;
     public event Action OnBarStart;
 
+    private bool isMusicPlaying = false;
+    private float currentBeatTime = 0f;
+    public float BeatInterval { get; private set; }
+
     private void Awake()
     {
         if (Instance == null)
@@ -115,12 +119,23 @@ public class FMODManager : MonoBehaviour
 
     private void DispatchBeatEvent(int beat)
     {
-        // Must be called on main thread
-        if (beat == 0)
+        try
         {
-            OnBarStart?.Invoke();
+            // Calculate beat interval from tempo
+            BeatInterval = 60f / timelineInfo.tempo;
+
+            if (beat == 0)
+            {
+                OnBarStart?.Invoke();
+            }
+            OnBeat?.Invoke();
+
+            Debug.Log($"Beat {beat} at tempo {timelineInfo.tempo}, interval: {BeatInterval}");
         }
-        OnBeat?.Invoke();
+        catch (Exception e)
+        {
+            Debug.LogError($"Error dispatching beat: {e.Message}");
+        }
     }
 
     public void StartMusic()
@@ -164,15 +179,23 @@ public class FMODManager : MonoBehaviour
     // Debug controls
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.M))
+        if (Input.GetKeyDown(KeyCode.M) && !isMusicPlaying)
         {
             StartMusic();
+            isMusicPlaying = true;
         }
 
-        if (Input.GetKeyDown(KeyCode.N)) // Press N to stop music
+        if (Input.GetKeyDown(KeyCode.N))
         {
-            Debug.Log("Manual music stop requested");
             StopMusic();
+            isMusicPlaying = false;
+        }
+
+        // Update beat time for other systems to reference
+        if (isMusicPlaying && musicInstance.isValid())
+        {
+            musicInstance.getTimelinePosition(out int timelinePos);
+            currentBeatTime = timelinePos / 1000f; // Convert to seconds
         }
 
         // Debug current playback state
@@ -185,5 +208,10 @@ public class FMODManager : MonoBehaviour
                 Debug.Log($"Current playback state: {state}");
             }
         }
+    }
+
+    public float GetTimeSinceLastBeat()
+    {
+        return Time.time - currentBeatTime;
     }
 }
