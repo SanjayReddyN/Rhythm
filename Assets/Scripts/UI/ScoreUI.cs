@@ -10,13 +10,13 @@ public class ScoreUI : MonoBehaviour
     void Start()
     {
         // Create a new instance of ScoreManager since it's not a MonoBehaviour
-        scoreManager = new ScoreManager();
-        UpdateScoreDisplay();
+        // scoreManager = new ScoreManager();
+        // UpdateScoreDisplay();
     }
 
     void Update()
     {
-        UpdateScoreDisplay();
+        // UpdateScoreDisplay();
     }
 
     public void UpdateScoreDisplay()

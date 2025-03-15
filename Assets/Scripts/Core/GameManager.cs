@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     {
         isGameActive = true;
         currentWave = 1;
+        FMODManager.Instance.StartMusic();
         // Additional logic to initialize the game
     }
 

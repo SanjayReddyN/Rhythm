@@ -3,25 +3,64 @@ using UnityEngine;
 public class BeatVisualizer : MonoBehaviour
 {
     [SerializeField] private SpriteRenderer visualIndicator;
-    private float beatInterval = 1f;
-    private float currentTime = 0f;
+    [SerializeField] private float pulseScale = 0.2f;
+    [SerializeField] private float animationDuration = 0.1f;
+
     private Vector3 originalScale;
+    private float currentAnimTime;
+    private bool isAnimating;
 
     void Start()
     {
+        if (visualIndicator == null)
+        {
+            Debug.LogError("BeatVisualizer: Missing visualIndicator reference!");
+            enabled = false;
+            return;
+        }
+
         originalScale = visualIndicator.transform.localScale;
+        SubscribeToBeatEvents();
+    }
+
+    private void SubscribeToBeatEvents()
+    {
+        if (FMODManager.Instance != null)
+        {
+            FMODManager.Instance.OnBeat += HandleBeat;
+        }
     }
 
     void Update()
     {
-        currentTime += Time.deltaTime;
-        float beatProgress = (currentTime % beatInterval) / beatInterval;
-        float scale = 1f + Mathf.Sin(beatProgress * Mathf.PI * 2) * 0.2f;
-        visualIndicator.transform.localScale = originalScale * scale;
+        if (!isAnimating) return;
+
+        currentAnimTime += Time.deltaTime;
+        float progress = currentAnimTime / animationDuration;
+
+        if (progress <= 1)
+        {
+            float scale = 1f + Mathf.Sin(progress * Mathf.PI) * pulseScale;
+            visualIndicator.transform.localScale = originalScale * scale;
+        }
+        else
+        {
+            isAnimating = false;
+            visualIndicator.transform.localScale = originalScale;
+        }
     }
 
-    public void SetBeatInterval(float interval)
+    private void HandleBeat()
     {
-        beatInterval = interval;
+        currentAnimTime = 0;
+        isAnimating = true;
+    }
+
+    private void OnDestroy()
+    {
+        if (FMODManager.Instance != null)
+        {
+            FMODManager.Instance.OnBeat -= HandleBeat;
+        }
     }
 }
