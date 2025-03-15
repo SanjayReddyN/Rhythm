@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{1998e7d1-b147-4f6a-91d6-768ffb78af05}">
+		<property name="assetPath">
+			<value>cry-techno-tutorial-100bpm.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>175.28163265306122</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f9beeba7-112a-4fb2-8235-2968ef2acbea}</destination>
+		</relationship>
+	</object>
+</objects>
