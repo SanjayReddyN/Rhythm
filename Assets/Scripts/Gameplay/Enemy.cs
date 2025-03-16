@@ -3,11 +3,10 @@ using UnityEngine.Tilemaps;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] private float moveInterval = 3f;
-    [SerializeField] private float beatDuration = 1f;
+    [SerializeField] private int moveEveryNBeats = 2;
     [SerializeField] private Tilemap groundTilemap;
 
-    private float nextMoveTime;
+    private int beatCounter = 0;
     private Vector3Int currentGridPosition;
     private Rigidbody2D rb;
 
@@ -19,34 +18,46 @@ public class Enemy : MonoBehaviour
 
     private void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        if (rb == null)
-        {
-            Debug.LogError("Enemy: Missing Rigidbody2D!");
-            return;
-        }
+        InitializeComponents();
+        SubscribeToBeatEvents();
+    }
 
-        // Find tilemap if not assigned
+    private void InitializeComponents()
+    {
+        rb = GetComponent<Rigidbody2D>();
         if (groundTilemap == null)
         {
             groundTilemap = GameObject.FindGameObjectWithTag("GroundTilemap").GetComponent<Tilemap>();
         }
 
-        nextMoveTime = Time.time + moveInterval * beatDuration;
-
         // Snap to grid on spawn
         currentGridPosition = groundTilemap.WorldToCell(transform.position);
         transform.position = groundTilemap.GetCellCenterWorld(currentGridPosition);
-
-        Debug.Log($"Enemy spawned at grid position: {currentGridPosition}");
     }
 
-    private void Update()
+    private void SubscribeToBeatEvents()
     {
-        if (Time.time >= nextMoveTime)
+        if (FMODManager.Instance != null)
+        {
+            FMODManager.Instance.OnBeat += HandleBeat;
+        }
+    }
+
+    private void HandleBeat()
+    {
+        beatCounter++;
+        if (beatCounter >= moveEveryNBeats)
         {
             MoveTowardsPlayer();
-            nextMoveTime = Time.time + moveInterval * beatDuration;
+            beatCounter = 0;
+        }
+    }
+
+    private void OnDestroy()
+    {
+        if (FMODManager.Instance != null)
+        {
+            FMODManager.Instance.OnBeat -= HandleBeat;
         }
     }
 

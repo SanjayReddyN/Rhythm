@@ -4,13 +4,11 @@ using UnityEngine.Tilemaps;
 public class EnemySpawner : MonoBehaviour
 {
     [SerializeField] private GameObject enemyPrefab;
-    [SerializeField] private float spawnInterval = 12f; // Spawn every 12 beats
-    [SerializeField] private float beatDuration = 1f;
+    [SerializeField] private int spawnEveryNBeats = 4;
     [SerializeField] private Tilemap groundTilemap;
 
-    private float nextSpawnTime;
+    private int beatCounter = 0;
     private bool isSpawning = false;
-
     private void Start()
     {
         if (groundTilemap == null)
@@ -18,19 +16,27 @@ public class EnemySpawner : MonoBehaviour
             groundTilemap = GameObject.FindGameObjectWithTag("GroundTilemap").GetComponent<Tilemap>();
         }
 
-        nextSpawnTime = Time.time + spawnInterval * beatDuration;
-        isSpawning = true;
-        Debug.Log("EnemySpawner initialized at position: " + transform.position);
+        if (FMODManager.Instance != null)
+        {
+            FMODManager.Instance.OnBeat += HandleBeat;
+        }
     }
 
-    private void Update()
+    private void HandleBeat()
     {
-        if (!isSpawning) return;
-
-        if (Time.time >= nextSpawnTime)
+        beatCounter++;
+        if (beatCounter >= spawnEveryNBeats)
         {
             SpawnEnemy();
-            nextSpawnTime = Time.time + spawnInterval * beatDuration;
+            beatCounter = 0;
+        }
+    }
+
+    private void OnDestroy()
+    {
+        if (FMODManager.Instance != null)
+        {
+            FMODManager.Instance.OnBeat -= HandleBeat;
         }
     }
 

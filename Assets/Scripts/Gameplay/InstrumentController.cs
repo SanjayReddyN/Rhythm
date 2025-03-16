@@ -12,6 +12,7 @@ public class InstrumentController : MonoBehaviour
     [SerializeField] private float attackRange = 5f;
     [SerializeField] private Tilemap groundTilemap;
     [SerializeField] private float attackDelay = 0.1f; // Small delay for visual feedback
+    [SerializeField] private TimingFeedback timingFeedback;
 
     public enum InstrumentType
     {
@@ -59,10 +60,23 @@ public class InstrumentController : MonoBehaviour
                 attackDirection = Vector2.left;
                 break;
         }
+
+        if (timingFeedback == null)
+        {
+            timingFeedback = FindFirstObjectByType<TimingFeedback>();
+        }
     }
 
     public void Activate()
     {
+        float timingSinceBeat = FMODManager.Instance.GetTimeSinceLastBeat();
+
+        // Show timing feedback
+        if (timingFeedback != null)
+        {
+            timingFeedback.ShowFeedback(timingSinceBeat, transform.position + Vector3.up);
+        }
+
         StartCoroutine(ActivateRoutine());
     }
 
