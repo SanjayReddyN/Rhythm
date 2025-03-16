@@ -54,7 +54,6 @@ public class PlayerController : MonoBehaviour
 
     private void HandleBeat()
     {
-        lastBeatTime = Time.time;
         hasMovedThisBeat = false;
         hasInteractedThisBeat = false;
         canMove = true;
@@ -64,14 +63,15 @@ public class PlayerController : MonoBehaviour
     {
         if (!canMove) return;
 
-        float timeSinceLastBeat = Time.time - lastBeatTime;
-        if (timeSinceLastBeat > moveWindow + beatTolerance)
+        float timeSinceLastBeat = FMODManager.Instance.GetTimeSinceLastBeat();
+        bool isWithinBeatWindow = timeSinceLastBeat <= moveWindow || timeSinceLastBeat >= (1 - moveWindow);
+
+        if (!isWithinBeatWindow)
         {
             canMove = false;
             return;
         }
 
-        // Only handle movement - interaction happens during movement
         if (!hasMovedThisBeat)
         {
             Vector2 input = playerInput.GetMovementInput();

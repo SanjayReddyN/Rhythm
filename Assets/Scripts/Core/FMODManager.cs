@@ -29,6 +29,12 @@ public class FMODManager : MonoBehaviour
     private float currentBeatTime = 0f;
     public float BeatInterval { get; private set; }
 
+    [Header("Debug")]
+    [SerializeField] private bool showDebugInfo = true;
+    private float[] lastBeatsTime = new float[4]; // Store last 4 beats for debugging
+    private int beatIndex = 0;
+    private float lastBeatInterval = 0f;
+
     private void Awake()
     {
         if (Instance == null)
@@ -121,8 +127,30 @@ public class FMODManager : MonoBehaviour
     {
         try
         {
-            // Calculate beat interval from tempo
-            BeatInterval = 60f / timelineInfo.tempo;
+            float currentTime = Time.time;
+
+            // Store beat timing for debug purposes
+            lastBeatsTime[beatIndex] = currentTime;
+            beatIndex = (beatIndex + 1) % 4;
+
+            // Calculate actual interval between beats
+            float actualInterval = 0f;
+            if (beatIndex > 0)
+            {
+                actualInterval = currentTime - lastBeatsTime[(beatIndex - 1 + 4) % 4];
+            }
+
+            // Calculate expected interval from tempo
+            float expectedInterval = 60f / timelineInfo.tempo;
+
+            // Check for drift
+            if (Mathf.Abs(actualInterval - expectedInterval) > 0.01f && showDebugInfo)
+            {
+                Debug.LogWarning($"Beat drift detected! Expected: {expectedInterval:F3}s, Actual: {actualInterval:F3}s");
+            }
+
+            BeatInterval = expectedInterval;
+            currentBeatTime = currentTime;
 
             if (beat == 0)
             {
@@ -130,7 +158,10 @@ public class FMODManager : MonoBehaviour
             }
             OnBeat?.Invoke();
 
-            Debug.Log($"Beat {beat} at tempo {timelineInfo.tempo}, interval: {BeatInterval}");
+            if (showDebugInfo)
+            {
+                Debug.Log($"Beat {beat} - Time: {currentTime:F3}, Interval: {actualInterval:F3}s, Tempo: {timelineInfo.tempo}");
+            }
         }
         catch (Exception e)
         {
@@ -210,8 +241,29 @@ public class FMODManager : MonoBehaviour
         }
     }
 
+    // Add this to visualize timing in the Unity Editor
+    private void OnGUI()
+    {
+        if (!showDebugInfo) return;
+
+        GUILayout.BeginArea(new Rect(10, 10, 300, 100));
+        GUILayout.Label($"Music Playing: {isMusicPlaying}");
+        GUILayout.Label($"Current Tempo: {timelineInfo.tempo}");
+        GUILayout.Label($"Beat Interval: {BeatInterval:F3}s");
+        GUILayout.Label($"Last Beat Time: {currentBeatTime:F3}s");
+        GUILayout.EndArea();
+    }
+
+    // Update the GetTimeSinceLastBeat method to be more precise
     public float GetTimeSinceLastBeat()
     {
-        return Time.time - currentBeatTime;
+        if (!isMusicPlaying) return float.MaxValue;
+
+        musicInstance.getTimelinePosition(out int timelinePos);
+        float currentMusicTime = timelinePos / 1000f;
+
+        // Calculate how far we are into the current beat
+        float timeSinceLastBeat = (currentMusicTime % BeatInterval) / BeatInterval;
+        return timeSinceLastBeat;
     }
 }

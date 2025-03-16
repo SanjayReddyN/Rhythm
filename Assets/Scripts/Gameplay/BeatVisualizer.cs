@@ -5,10 +5,12 @@ public class BeatVisualizer : MonoBehaviour
     [SerializeField] private SpriteRenderer visualIndicator;
     [SerializeField] private float pulseScale = 0.2f;
     [SerializeField] private float animationDuration = 0.1f;
+    [SerializeField] private bool useInterpolation = true;
 
     private Vector3 originalScale;
     private float currentAnimTime;
     private bool isAnimating;
+    private float beatProgress = 0f;
 
     void Start()
     {
@@ -33,20 +35,33 @@ public class BeatVisualizer : MonoBehaviour
 
     void Update()
     {
-        if (!isAnimating) return;
-
-        currentAnimTime += Time.deltaTime;
-        float progress = currentAnimTime / animationDuration;
-
-        if (progress <= 1)
+        if (useInterpolation)
         {
-            float scale = 1f + Mathf.Sin(progress * Mathf.PI) * pulseScale;
+            // Smoothly animate between beats
+            float timeSinceLastBeat = FMODManager.Instance.GetTimeSinceLastBeat();
+            beatProgress = timeSinceLastBeat;
+
+            float scale = 1f + Mathf.Sin(beatProgress * Mathf.PI * 2) * pulseScale * 0.5f;
             visualIndicator.transform.localScale = originalScale * scale;
         }
         else
         {
-            isAnimating = false;
-            visualIndicator.transform.localScale = originalScale;
+            // Original discrete animation
+            if (!isAnimating) return;
+
+            currentAnimTime += Time.deltaTime;
+            float progress = currentAnimTime / animationDuration;
+
+            if (progress <= 1)
+            {
+                float scale = 1f + Mathf.Sin(progress * Mathf.PI) * pulseScale;
+                visualIndicator.transform.localScale = originalScale * scale;
+            }
+            else
+            {
+                isAnimating = false;
+                visualIndicator.transform.localScale = originalScale;
+            }
         }
     }
 
