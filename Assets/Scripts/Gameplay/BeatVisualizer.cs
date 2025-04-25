@@ -35,14 +35,33 @@ public class BeatVisualizer : MonoBehaviour
 
     void Update()
     {
+        if (!FMODManager.Instance?.musicInstance.isValid() ?? false)
+            return;
+
         if (useInterpolation)
         {
-            // Smoothly animate between beats
-            float timeSinceLastBeat = FMODManager.Instance.GetTimeSinceLastBeat();
-            beatProgress = timeSinceLastBeat;
+            try
+            {
+                float timeSinceLastBeat = FMODManager.Instance.GetTimeSinceLastBeat();
+                // Clamp to prevent invalid values
+                timeSinceLastBeat = Mathf.Clamp01(timeSinceLastBeat);
 
-            float scale = 1f + Mathf.Sin(beatProgress * Mathf.PI * 2) * pulseScale * 0.5f;
-            visualIndicator.transform.localScale = originalScale * scale;
+                float sinValue = Mathf.Sin(timeSinceLastBeat * Mathf.PI * 2);
+                // Clamp the scale calculation
+                float scaleModifier = Mathf.Clamp(sinValue * pulseScale * 0.5f, -pulseScale, pulseScale);
+                float scale = 1f + scaleModifier;
+
+                // Only apply if scale is valid
+                if (!float.IsNaN(scale))
+                {
+                    visualIndicator.transform.localScale = originalScale * scale;
+                }
+            }
+            catch (System.Exception e)
+            {
+                Debug.LogError($"BeatVisualizer error: {e.Message}");
+                visualIndicator.transform.localScale = originalScale;
+            }
         }
         else
         {

@@ -9,7 +9,7 @@ public class FMODManager : MonoBehaviour
     public static FMODManager Instance { get; private set; }
 
     [SerializeField] private EventReference musicEventRef;
-    private EventInstance musicInstance;
+    public EventInstance musicInstance;
     private GCHandle timelineHandle;
 
     [System.Serializable]
